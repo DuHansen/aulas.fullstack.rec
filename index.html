@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Hansen</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="body">
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+         <div class="logo_header">
+            <img src="img/Ellipse 13.png" alt="Logo GN" class="img_logo_header">
+        </div>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <button onclick="window.location.href='#home'">Home</button>
+            <button onclick="window.location.href='#sobre'">Sobre</button>
+            <button onclick="window.location.href='#contato'">Contato</button>
+            
+        </div>
+    </div>
+    <section id = "home">
+        <img src="./img/Frame 169.png" alt="Background">
+        <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+            <h1>Eduardo Hansen</h1>
+        </div>
+    </section>
+   
+    
+    <section id ="sobre">
+        <section class = "tecnica">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/foguete.svg " alt="Tecnicas" width="40" height="40">
+                <h2>Habilidades técnicas</h2>
+            </div>
+        <ul>
+            <li><strong>Linguagens:</strong> Java, JavaScript</li>
+            <li><strong>Front-end:</strong> React, HTML, CSS, Bootstrap</li>
+            <li><strong>Back-end:</strong> Spring, Spring Boot, nodeJS</li>
+            <li><strong>Banco de dados:</strong> Mysql, Oracle, Firebase</li>
+            <li><strong>Versionamento:</strong> Git</li>
+            <li><strong>Metodologias:</strong> Scrum, Agile, Cascata</li>
+            <li><strong>Testes:</strong> QA com uso de Selenium e Junit</li>
+            <li><strong>Desenvolvimento:</strong> Aplicativos Web e Mobile</li>
+        </ul>
+        </section>
+
+        <section class= "pessoal">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/emprego.svg" alt="profissional" width="40" height="40">
+                <h2>Habilidades pessoais</h2>
+            </div>
+            <ul>
+                <li>Resolução de problemas</li>
+                <li>Trabalho em equipe</li>
+                <li>Adaptabilidade e novas tecnologias</li>
+                <li>Raciocinio lógico</li>
+            </ul>
+        </section>
+        <section class = "profissional">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/emprego.svg" alt="profissional" width="40" height="40">
+                <h2>Experiência profissional</h2>
+            </div>
+            <P><strong> Telemarketing | Empresa lbv | Florianópolis-SC</strong></P>
+            <ul>
+                <li>Responsável por realizar contatos proativos, estabelecer conexões e apresentar os serviços aos clientes em potencial.</li>
+                <br>
+                <li>Criação e aprimoramento de scripts de vendas, adaptados às necessidades específicas do mercado e alinhados com os valores da LBV.</li>
+            </ul>
+        </section>
+        <section class="educacao">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/educacao.svg" alt="Educação" width="40" height="40">
+                <h2>Educação</h2>
+            </div>
+            
+                <p><strong>SENAC - Centro, Florianópolis-SC</strong></p>
+                <ul>
+                    <a href="https://www.sc.senac.br/matrizcurricular/curso/curso-superior-de-tecnologia-em-analise-e-desenvolvimento-de-sistemas-2023"><li>Análise e Desenvolvimento de Sistemas | 2023 - Curso Atual</li></a>
+                </ul>
+            
+                <p><strong>IFSC - Instituto Federal de Santa Catarina</strong></p>
+                <ul>
+                    <li>Engenharia Elétrica | 2019 - 2022</li>
+                </ul>
+        </section>
+        <section class="certificação">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/certificado (1).svg " alt="certificação" width="35" height="35">
+                <h2>Certificações</h2>
+            </div>
+            <ul>
+                <li>Oracle certificaed</li>
+            </ul>
+        </section>
+        <section class = "projetos"> 
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/ideia (1).svg" alt="Projetos" width="40" height="40">
+                <h2>Projetos pessoais</h2>
+            </div>
+            <ul>
+                <li>Sistema de gerenciamento financeiro</li>
+            </ul>
+        </section>
+        <section class = "idioma">
+            <div class = "titulo">
+                <img class = "imagem" src = "./img/idioma.svg" alt = "Idiomas" width="40" height="40">
+                <h2>Idiomas</h2>
+            </div>
+            <div class="table-container">
+            <table border = 1>
+                <thead>
+                    <tr>
+                        <th>Idioma</th>
+                        <th>Básico</th>
+                        <th>Intermediario</th>
+                        <th>Avançado</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inglês</td>
+                        <td></td>
+                        <td></td>
+                        <td>x</td>
+                    </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td></td>
+                        <td></td>
+                        <td>x</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </section>
+    </section>
+        <section id = "contato">
+        <div class="quadro">
+            <div class="titulo-quadro">
+                <i>Contatos</i>
+            </div>
+                <div class="box-contato">
+                    <div class="box-whats" onclick="location.href=' https://api.whatsapp.com/send?phone=47991518118';">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </div>
+                    <div class="box-instagram" onclick="location.href='https://www.instagram.com/eduardohansen.dev/';">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <div class="box-face" onclick="location.href='https://www.facebook.com/eduardo.eduardohansen';">
+                        <ion-icon name="logo-facebook" width="50px" height="50px"></ion-icon>
+                    </div>
+                    <div class="box-git" onclick="location.href='https://github.com/DuHansen';">
+                        <img class="git" src="img/github-mark.png" alt="GitHub" width="50px" height="50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="mapa">
+            <h1>Endereço</h1>
+            <div id="map"></div>
+            <script>
+            function initMap() {
+                var minhaLocalizacao = {lat: -27.59218406677246, lng: -48.54499816894531};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: minhaLocalizacao
+                });
+                var marker = new google.maps.Marker({
+                position: minhaLocalizacao,
+                map: map
+                });
+            }
+            </script>
+            <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp0UkMkdwv-Pqg3T6QuTBcFisadgAVRnw&callback=initMap">
+            </script>
+        </section>
+<footer>
+    <div class="footer-wrap">
+        <div class="container first_class">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <h3>BE THE FIRST TO KNOW</h3>
+                    <p>Get all the latest information on examples of Services, Events, Jobs. Get in touch today.</p>
+                </div>
+            </div>
+        </div>
+        <div class="company-info">
+            <div class="container company-info_bdr">
+               
+                    <div class="col-md-2 col-sm-6">
+                        <h3>Quick LInks</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a>
+                            </li>
+                            <li><a href="#sobre">About</a>
+                            </li>
+                            <li><a href="https://github.com/DuHansen">Project</a>
+                            </li>
+                            <li><a href="#contato">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"> Copyright 2024 | Eduardo Hansen</div>
+</footer>
+</body>
+<script>
+    var header           = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header');
+    var content          = document.getElementById('content');
+    var showSidebar      = false;
+
+    function toggleSidebar()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)';
+        }
+        else
+        {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = '';
+        }
+    }
+
+    function closeSidebar()
+    {
+        if(showSidebar)
+        {
+            showSidebar = true;
+            toggleSidebar();
+        }
+    }
+    document.addEventListener('DOMContentLoaded', (event) => {
+    // Seu código JavaScript aqui
+    window.addEventListener('resize', function(event) {
+        if(window.innerWidth > 768 && showSidebar) 
+        {  
+            showSidebar = true;
+            toggleSidebar();
+        }
+    });
+});
+    window.onload = function() {
+    var divBoxes = document.querySelectorAll('.box');
+    divBoxes.forEach(function(divBox) {
+        document.addEventListener('DOMContentLoaded', (event) => {
+        divBox.addEventListener('click', function() {
+            window.location.href = this.getAttribute('onclick').split("'")[1];
+        });
+    });
+});
+};
+
+// Primeiro, selecione todos os links no cabeçalho
+let links = document.querySelectorAll('.navigation_header a');
+
+// Em seguida, adicione um evento de clique a cada link
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Seu código JavaScript aqui
+
+
+for (let i = 0; i < links.length; i++) {
+    
+    links[i].addEventListener('click', smoothScroll);
+}});
+
+// Função para rolagem suave
+function smoothScroll(event) {
+    event.preventDefault(); // Impede o comportamento padrão do clique
+    let targetId = event.currentTarget.getAttribute('href'); // Pega o valor do atributo href do link clicado
+    let targetPosition = document.querySelector(targetId).offsetTop; // Pega a posição do topo da seção alvo
+    let startPosition = window.pageYOffset; // Pega a posição atual da janela
+    let distance = targetPosition - startPosition; // Calcula a distância a ser percorrida
+    let duration = 1000; // Define a duração da animação em milissegundos
+    let start = null;
+
+    // Função para animar a rolagem
+    function animation(currentTime) {
+        if (start === null) start = currentTime;
+        let timeElapsed = currentTime - start;
+        let run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    // Função para criar o efeito de 'ease' na animação
+    function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    // Inicia a animação
+    requestAnimationFrame(animation);
+}
+
+ScrollReveal().reveal('.content', { origin: 'left', distance: '100px', scale: 0.9, delay: 200 });
+ScrollReveal().reveal('.tecnica', { origin: 'right', distance: '100px', scale: 0.9, delay: 200 });
+ScrollReveal().reveal('.pessoal', { origin: 'left', distance: '100px', scale: 0.9, delay: 200 });
+ScrollReveal().reveal('.profissional', { origin: 'right', distance: '100px', scale: 0.9, delay: 200 });
+ScrollReveal().reveal('.educacao', { origin: 'left', distance: '100px', scale: 0.9, delay: 200});
+ScrollReveal().reveal('.certificação', { origin: 'right', distance: '100px', scale: 0.9, delay: 200});
+ScrollReveal().reveal('.projetos', { origin: 'left', distance: '100px', scale: 0.9, delay: 200});
+ScrollReveal().reveal('.idioma', { origin: 'right', distance: '100px', scale: 0.9, delay: 200});
+ScrollReveal().reveal('.contato', { origin: 'left', distance: '100px', scale: 0.9, delay: 200});
+// Adicione mais seletores conforme necessário
+
+// Adicione mais seletores conforme necessário
+
+</script>
+</html>
